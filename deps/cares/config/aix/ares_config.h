@@ -128,7 +128,8 @@
 #define HAVE_GETNAMEINFO 1
 
 /* Define to 1 if you have the getservbyport_r function. */
-#define HAVE_GETSERVBYPORT_R 1
+// #define HAVE_GETSERVBYPORT_R 1
+#undef HAVE_GETSERVBYPORT_R
 
 /* Define to 1 if you have the `gettimeofday' function. */
 #define HAVE_GETTIMEOFDAY 1
